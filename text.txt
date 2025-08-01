@@ -1,33 +1,39 @@
-make a banner section with with the image(images/bg_image.png).
-inside this are content max size would be - width: 994;
-height: 334;
-gap: 40px;
+“ for this 
+width: 64;
+height: 50;
+top: 60px;
+left: 60px;
+angle: 0 deg;
+opacity: 1;
+color: #F8F8FF66;
+
+for the name 
+width: 366;
+height: 109;
+top: 351px;
+left: 1014px;
+gap: 16px;
 angle: 0 deg;
 opacity: 1;
 
-contents - Dive Into the World of Sumptuous Sum Dim Sum - font-family: Cinzel Decorative;
-font-weight: 700;
-font-style: Bold;
-font-size: 48px;
-leading-trim: NONE;
-line-height: 136%;
-letter-spacing: 0%;
-text-align: center;
-background: #F8F8FF;
+for the slider icon 
+width: 60;
+height: 60;
+top: 230px;
+left: 1320px;
+angle: 0 deg;
+opacity: 1;
 
-Embark on a culinary journey where every bite tells a story of tradition and passion. At Sum Dim Sum, we bring you an authentic Asian dining experience with handcrafted dishes, vibrant flavors, and the warmth of our culture. From delicate dumplings to savory
-bites, our menu is a celebration of taste and artistry. Come, savor the joy of good food, and let
-every dish transport you to the heart of dim sum perfection. 
-font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: center;
-background: #E6F6FC;
 
-Explore More -> button (make it with the custom button component)
+for the bottom frame 
+width: 132;
+height: 28;
+top: 432px;
+left: 654px;
+gap: 12px;
+angle: 0 deg;
+opacity: 1;
 
-the space between text would be 20px and description and the button space will be 40px.
+and the gap between 2 stars will be 10px
+ 
+the space between te stars and frame will be 62px
