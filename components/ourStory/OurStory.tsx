@@ -1,12 +1,9 @@
 "use client";
-
 import Image from "next/image";
-import { FiArrowRight } from "react-icons/fi";
 
 const OurStorySection = () => {
   return (
-    <div className="w-full max-w-[1320px] mx-auto mt-[60px] md:mt-[120px] relative px-4 lg:px-0">
-      {/* Mobile and Tablet Layout (Below 1024px) */}
+    <div className="w-full max-w-[1320px] mx-auto lg:mt-[190px] mt-[120px] relative px-4 lg:px-0">
       <div className="block lg:hidden">
         {/* Story Section for Mobile */}
         <div className="w-full bg-[#F7E7E8] rounded-[20px] p-6 mb-6">
@@ -41,10 +38,10 @@ const OurStorySection = () => {
         {/* Image Section for Mobile */}
         <div className="w-full">
           <div className="relative w-full h-[250px] sm:h-[300px]">
-            <div className="absolute top-[-10px] left-[10px] w-full h-full rounded-[20px] border border-[#B31217] z-10 hidden sm:block"></div>
+            <div className="absolute top-[-10px] left-[10px] w-full h-full rounded-[20px] border border-[#B31217] z-10 hidden"></div>
             <div className="relative z-20 w-full h-full">
               <Image
-                src="/images/about_img.jpg"
+                src="/images/stall_image.jpg"
                 alt="Sum Dim Sum stall"
                 width={512}
                 height={365}
@@ -58,7 +55,7 @@ const OurStorySection = () => {
       {/* Desktop Layout (1325px and above) */}
       <div className="hidden xl:block">
         {/* Main Story Section */}
-        <div className="relative w-[1096px] h-[389px] bg-[#F7E7E8] rounded-[20px] overflow-hidden z-10">
+        <div className="relative w-full max-w-[1096px] h-auto lg:h-[389px] bg-[#F7E7E8] rounded-[20px] overflow-hidden z-10 mx-auto">
           {/* Background Tree Illustration */}
           <div
             className="absolute"
@@ -85,7 +82,7 @@ const OurStorySection = () => {
           <div className="relative z-10">
             {/* Heading */}
             <h2
-              className="absolute top-[60px] left-[60px] w-[664px] h-[65px] text-[48px] font-bold leading-[136%] text-[#0C0C0C]"
+              className="absolute top-[60px] left-[60px] w-auto max-w-[664px] h-auto text-[48px] font-bold leading-[136%] text-[#0C0C0C]"
               style={{ fontFamily: "Cinzel Decorative, serif" }}
             >
               OUR STORY
@@ -93,7 +90,7 @@ const OurStorySection = () => {
 
             {/* Paragraph */}
             <p
-              className="absolute top-[145px] left-[60px] w-[664px] h-[96px] text-[16px] font-normal leading-[150%] text-[#0C0C0C]"
+              className="absolute top-[145px] left-[60px] w-auto max-w-[664px] h-auto text-[16px] font-normal leading-[150%] text-[#0C0C0C]"
               style={{ fontFamily: "Raleway, sans-serif" }}
             >
               At Sum Dim Sum, we are a local Singaporean brand that prepares dim
@@ -105,7 +102,7 @@ const OurStorySection = () => {
 
             {/* CTA Button */}
             <button
-              className="absolute top-[261px] left-[60px] w-[159px] h-[48px] bg-[#B31217] text-white rounded-[8px] flex items-center justify-center gap-[8px] px-[20px] py-[10px] hover:scale-105 hover:shadow-lg transition-all duration-300 mt-[20px]"
+              className="absolute top-[261px] left-[60px] w-auto h-auto bg-[#B31217] text-white rounded-[8px] flex items-center justify-center gap-[8px] px-[20px] py-[10px] hover:scale-105 hover:shadow-lg transition-all duration-300 mt-[20px]"
               style={{ fontFamily: "Raleway, sans-serif" }}
             >
               <span className="text-[16px] font-semibold flex items-center gap-1">
@@ -117,22 +114,20 @@ const OurStorySection = () => {
 
         {/* Stall Image Section (positioned absolutely to overlap) */}
         <div
-          className="absolute"
+          className="absolute w-full max-w-[512px] h-auto lg:h-[365px]"
           style={{
             top: "84px",
             left: "784px",
-            width: "512px",
-            height: "365px",
           }}
         >
-          <div className="relative w-[512px] h-[365px]">
+          <div className="relative w-full h-full">
             {/* Border Layer Behind */}
-            <div className="absolute top-[-20px] left-[20px] w-full h-full rounded-[20px] border border-[#B31217] z-10"></div>
+            <div className="absolute top-[-20px] left-[20px] w-full h-full rounded-[20px] border xl:block hidden border-[#B31217] z-10"></div>
 
             {/* Main Image Layer */}
             <div className="relative z-20 w-full h-full">
               <Image
-                src="/images/about_img.jpg"
+                src="/images/stall_image.jpg"
                 alt="Sum Dim Sum stall"
                 width={512}
                 height={365}
@@ -204,12 +199,12 @@ const OurStorySection = () => {
           <div className="relative">
             <div className="relative w-full h-[300px] lg:h-[389px]">
               {/* Border Layer Behind */}
-              <div className="absolute top-[-15px] left-[15px] w-full h-full rounded-[20px] border border-[#B31217] z-10"></div>
+              <div className="absolute top-[-20px] left-[20px] w-full h-full rounded-[20px] border hidden border-[#B31217] z-10"></div>
 
               {/* Main Image Layer */}
               <div className="relative z-20 w-full h-full">
                 <Image
-                  src="/images/about_img.jpg"
+                  src="/images/stall_image.jpg"
                   alt="Sum Dim Sum stall"
                   width={512}
                   height={365}

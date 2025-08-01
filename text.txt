@@ -1,21 +1,33 @@
-the stall image - make like this width: 512;
-height: 365;
-top: 84px;
-left: 784px;
-border-radius: 20px;
+make a banner section with with the image(images/bg_image.png).
+inside this are content max size would be - width: 994;
+height: 334;
+gap: 40px;
 angle: 0 deg;
 opacity: 1;
 
-and make a layer with this properties - width: 448;
-height: 365;
-top: 60px;
-left: 872px;
-border-radius: 20px;
-angle: 0 deg;
-opacity: 1;
-border-width: 1px;
-border color- #B31217,
+contents - Dive Into the World of Sumptuous Sum Dim Sum - font-family: Cinzel Decorative;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+leading-trim: NONE;
+line-height: 136%;
+letter-spacing: 0%;
+text-align: center;
+background: #F8F8FF;
 
-and place this 24px top and 24px right behind the stall image, 
+Embark on a culinary journey where every bite tells a story of tradition and passion. At Sum Dim Sum, we bring you an authentic Asian dining experience with handcrafted dishes, vibrant flavors, and the warmth of our culture. From delicate dumplings to savory
+bites, our menu is a celebration of taste and artistry. Come, savor the joy of good food, and let
+every dish transport you to the heart of dim sum perfection. 
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+background: #E6F6FC;
 
-for now the most place the stall img keeping space from the left container of 184px 
+Explore More -> button (make it with the custom button component)
+
+the space between text would be 20px and description and the button space will be 40px.
