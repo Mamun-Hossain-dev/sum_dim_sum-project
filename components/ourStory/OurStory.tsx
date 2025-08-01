@@ -55,7 +55,7 @@ const OurStorySection = () => {
       {/* Desktop Layout (1325px and above) */}
       <div className="hidden xl:block">
         {/* Main Story Section */}
-        <div className="relative w-full max-w-[1096px] h-auto lg:h-[389px] bg-[#F7E7E8] rounded-[20px] overflow-hidden z-10 mx-auto">
+        <div className="relative w-full max-w-[1096px] h-auto lg:h-[389px] bg-[#F7E7E8] rounded-[20px] overflow-hidden z-10">
           {/* Background Tree Illustration */}
           <div
             className="absolute"

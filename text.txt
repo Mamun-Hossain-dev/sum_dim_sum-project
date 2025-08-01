@@ -1,39 +1,11 @@
-“ for this 
-width: 64;
-height: 50;
-top: 60px;
-left: 60px;
-angle: 0 deg;
-opacity: 1;
-color: #F8F8FF66;
+In the @components/ourStory component, make the following layout adjustments:
 
-for the name 
-width: 366;
-height: 109;
-top: 351px;
-left: 1014px;
-gap: 16px;
-angle: 0 deg;
-opacity: 1;
+Set the max width of the content section to 1096px.
 
-for the slider icon 
-width: 60;
-height: 60;
-top: 230px;
-left: 1320px;
-angle: 0 deg;
-opacity: 1;
+Place this content section aligned to the left side within the available 1340px container.
 
+The right side section with the shop images and border layer is already perfect — keep it as it is.
 
-for the bottom frame 
-width: 132;
-height: 28;
-top: 432px;
-left: 654px;
-gap: 12px;
-angle: 0 deg;
-opacity: 1;
+Just ensure the content section sits flush to the leftmost side of the 1340px area, using its allowed max width (1096px).
 
-and the gap between 2 stars will be 10px
- 
-the space between te stars and frame will be 62px
+Don't change any spacing or styling of the right side image section.
