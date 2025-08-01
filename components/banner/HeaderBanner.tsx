@@ -5,7 +5,8 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-import CustomButton from "./CustomButton";
+import CustomButton from "../common/CustomButton";
+import CheckOurProfile from "@/components/CheckProfile";
 
 const HeaderBanner = () => {
   const pathname = usePathname();
@@ -128,10 +129,10 @@ const HeaderBanner = () => {
                       key={link.href}
                       href={link.href}
                       onClick={closeMobileMenu}
-                      className={`text-white text-lg leading-normal transition-all duration-200 hover:text-gray-200 hover:bg-white hover:bg-opacity-10 py-3 px-4 rounded-md ${
+                      className={`text-lg leading-normal transition-all duration-200 hover:text-gray-200 hover:bg-gray-700 hover:bg-opacity-10 py-3 px-4 rounded-md ${
                         pathname === link.href
-                          ? "font-bold bg-white bg-opacity-15 border-l-4 border-[#B31217]"
-                          : "font-normal"
+                          ? "font-bold text-[#B31217] bg-white bg-opacity-15 border-l-4 border-[#B31217]"
+                          : "font-normal text-white"
                       }`}
                       style={{ fontFamily: "Raleway" }}
                     >
@@ -185,6 +186,11 @@ const HeaderBanner = () => {
           </p>
           <div className="mt-8 sm:mt-10 md:mt-12 lg:mt-[60px] flex items-center justify-center">
             <CustomButton href="/menu">Explore Our Menu &rarr;</CustomButton>
+          </div>
+
+          {/* Check Our Profile Component */}
+          <div className="flex justify-end w-full">
+            <CheckOurProfile className="mt-4" />
           </div>
         </div>
       </div>

@@ -1,0 +1,7 @@
+checkourprofile button positioning -
+Large devices: bottom-[100px] right-[60px] (100px from bottom, 60px from right)
+Medium devices: bottom-[80px] right-[40px]
+Small+ devices: bottom-[70px] right-[30px]
+Small devices: bottom-[60px] right-[20px],
+
+please do this with causing any error, of its acording to the banner bg image
