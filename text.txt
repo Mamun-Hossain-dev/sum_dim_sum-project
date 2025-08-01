@@ -1,7 +1,21 @@
-checkourprofile button positioning -
-Large devices: bottom-[100px] right-[60px] (100px from bottom, 60px from right)
-Medium devices: bottom-[80px] right-[40px]
-Small+ devices: bottom-[70px] right-[30px]
-Small devices: bottom-[60px] right-[20px],
+the stall image - make like this width: 512;
+height: 365;
+top: 84px;
+left: 784px;
+border-radius: 20px;
+angle: 0 deg;
+opacity: 1;
 
-please do this with causing any error, of its acording to the banner bg image
+and make a layer with this properties - width: 448;
+height: 365;
+top: 60px;
+left: 872px;
+border-radius: 20px;
+angle: 0 deg;
+opacity: 1;
+border-width: 1px;
+border color- #B31217,
+
+and place this 24px top and 24px right behind the stall image, 
+
+for now the most place the stall img keeping space from the left container of 184px 

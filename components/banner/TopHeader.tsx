@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const TopHeader = () => {
   return (
-    <div className="w-full h-auto md:h-10 text-gray-300 backdrop-blur-[20px] px-4 md:px-[60px] py-2 md:py-[10px]">
+    <div className="w-full h-auto md:h-10 bg-[#0C0C0C] text-gray-300 backdrop-blur-[20px] px-4 md:px-[60px] py-2 md:py-[10px]">
       <div className="max-w-[1320px] mx-auto flex flex-col md:flex-row items-center justify-between h-full gap-y-3 md:gap-y-0">
         {/* Left Side: Contact Info */}
         <div className="flex flex-col sm:flex-row items-center gap-y-2 sm:gap-y-0 sm:gap-x-6 md:gap-x-10 w-full md:w-auto">
