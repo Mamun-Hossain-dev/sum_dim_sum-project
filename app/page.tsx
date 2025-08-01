@@ -3,6 +3,7 @@ import OurStory from "@/components/ourStory/OurStory";
 import Tradition from "@/components/tradition/Tradition";
 import CallToActionBanner from "@/components/CallToActionBanner";
 import TalkOfTheTown from "@/components/TalkOfTheTown";
+import BookingSection from "@/components/BookingSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Tradition />
       <CallToActionBanner />
       <TalkOfTheTown />
+      <BookingSection />
     </main>
   );
 }

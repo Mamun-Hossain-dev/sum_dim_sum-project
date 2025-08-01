@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const OurStorySection = () => {
   return (
-    <div className="w-full max-w-[1320px] mx-auto lg:mt-[190px] mt-[120px] relative px-4 lg:px-0">
+    <div className="w-full max-w-[1320px] mx-auto lg:mt-[100px] mt-[50px] relative px-4 lg:px-0">
       <div className="block lg:hidden">
         {/* Story Section for Mobile */}
         <div className="w-full bg-[#F7E7E8] rounded-[20px] p-6 mb-6">

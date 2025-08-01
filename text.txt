@@ -1,11 +1,22 @@
-In the @components/ourStory component, make the following layout adjustments:
-
-Set the max width of the content section to 1096px.
-
-Place this content section aligned to the left side within the available 1340px container.
-
-The right side section with the shop images and border layer is already perfect — keep it as it is.
-
-Just ensure the content section sits flush to the leftmost side of the 1340px area, using its allowed max width (1096px).
-
-Don't change any spacing or styling of the right side image section.
+width: 338;
+height: 24;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+each of the input field would like this
+with just border bottom - 0.5px width: 338.00000000000125;
+height: 0px;
+angle: 180 deg;
+opacity: 1;
+border-width: 0.5px;
+,
+placeholder is, Your Name, 1(dynamic can change) Person, a default date(21-7-2025) instead of calender icon it showing arrow down icons(import this from react-icons this is same for person, and time) and lat 9:00 PM 
+text styles
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #0C0C0C;
