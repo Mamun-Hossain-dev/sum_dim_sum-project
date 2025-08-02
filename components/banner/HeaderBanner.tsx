@@ -76,7 +76,7 @@ const HeaderBanner = () => {
           {/* Book a Table Button - Desktop */}
           <div className="hidden lg:block">
             <Link
-              href="/reservation"
+              href="#"
               className="w-[120px] xl:w-[138px] h-10 xl:h-[44px] flex items-center justify-center text-white text-xs xl:text-sm font-medium py-2 xl:py-[10px] px-4 xl:px-[20px] border border-transparent hover:border-white bg-[#FFFFFF1F] rounded-lg transition-all duration-300 cursor-pointer hover:bg-[#FFFFFF30]"
             >
               Book a Table
@@ -143,7 +143,7 @@ const HeaderBanner = () => {
                 {/* Mobile Book a Table Button */}
                 <div className="mt-auto pt-6 border-t border-gray-600">
                   <Link
-                    href="/reservation"
+                    href="#"
                     onClick={closeMobileMenu}
                     className="w-full h-12 flex items-center justify-center text-white text-base font-medium border border-[#B31217] bg-[#B31217] rounded-lg transition-all duration-300 hover:bg-[#9A0F13] hover:border-[#9A0F13] shadow-lg"
                   >

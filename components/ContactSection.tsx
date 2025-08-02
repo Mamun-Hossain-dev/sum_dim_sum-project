@@ -1,11 +1,44 @@
 "use client";
 import Image from "next/image";
 import CustomButton from "./common/CustomButton";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { useForm, SubmitHandler } from "react-hook-form";
+import axios from "axios";
+import toast, { Toaster } from "react-hot-toast";
+
+type Inputs = {
+  name: string;
+  email: string;
+  phoneNumber: string;
+  message: string;
+};
 
 const ContactSection = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+    reset,
+  } = useForm<Inputs>();
+
+  const onSubmit: SubmitHandler<Inputs> = async (data) => {
+    try {
+      await axios.post(
+        "https://landingpage-backend-fovb.onrender.com/api/v1/contact",
+        data
+      );
+      toast.success("Your message has been sent successfully!");
+      reset();
+    } catch (error) {
+      console.error("Error sending message:", error);
+      toast.error("An error occurred. Please try again.");
+    }
+  };
+
   return (
     <section className="w-full max-w-[1320px] mx-auto py-[60px] sm:py-[80px] lg:py-[120px] px-4 sm:px-6 lg:px-0">
+      <Toaster />
       <div className="flex flex-col lg:flex-row rounded-[12px] sm:rounded-[16px] lg:rounded-[20px] overflow-hidden min-h-[600px] sm:min-h-[650px] lg:h-[746px] shadow-lg">
         {/* Left Column */}
         <div
@@ -27,52 +60,87 @@ const ContactSection = () => {
             </div>
 
             {/* Form */}
-            <form className="w-full space-y-6 sm:space-y-8 lg:space-y-10">
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              className="w-full space-y-6 sm:space-y-8 lg:space-y-10"
+            >
               <div className="space-y-6 sm:space-y-8 lg:space-y-10">
                 {/* Name Input */}
                 <div>
                   <input
+                    {...register("name", { required: true, minLength: 2 })}
                     type="text"
                     placeholder="Your Name"
-                    className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pb-2 sm:pb-3 font-raleway font-medium text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80"
+                    className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pb-2 sm:pb-3 font-sans font-medium text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80"
                   />
+                  {errors.name && (
+                    <p className="text-red-500 text-xs mt-1 bg-white/10 p-1 rounded">
+                      Name is required (min. 2 characters).
+                    </p>
+                  )}
                 </div>
 
                 {/* Email and Phone Row */}
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-[24px]">
                   <div className="w-full">
                     <input
+                      {...register("email", {
+                        required: true,
+                        pattern: /^\S+@\S+$/i,
+                      })}
                       type="email"
                       placeholder="Your Email"
-                      className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pb-2 sm:pb-3 font-raleway font-medium text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80"
+                      className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pb-2 sm:pb-3 font-sans font-medium text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80"
                     />
+                    {errors.email && (
+                      <p className="text-red-500 text-xs mt-1 bg-white/10 p-1 rounded">
+                        A valid email is required.
+                      </p>
+                    )}
                   </div>
                   <div className="w-full">
                     <input
+                      {...register("phoneNumber", {
+                        required: true,
+                        minLength: 10,
+                      })}
                       type="tel"
                       placeholder="Phone Number"
-                      className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pb-2 sm:pb-3 font-raleway font-medium text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80"
+                      className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pb-2 sm:pb-3 font-sans font-medium text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80"
                     />
+                    {errors.phoneNumber && (
+                      <p className="text-red-500 text-xs mt-1 bg-white/10 p-1 rounded">
+                        Phone number is required (min. 10 digits).
+                      </p>
+                    )}
                   </div>
                 </div>
 
                 {/* Message Textarea */}
                 <div>
                   <textarea
+                    {...register("message", { required: true, minLength: 5 })}
                     placeholder="Type your message here..."
                     rows={1}
-                    className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pt-0 pb-2 sm:pb-3 font-raleway font-normal text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80 resize-none min-h-[40px]"
+                    className="w-full bg-transparent border-b-[0.5px] border-white/50 focus:outline-none focus:border-white transition-colors duration-300 pt-0 pb-2 sm:pb-3 font-sans font-normal text-sm sm:text-base text-[#E6F6FC] placeholder-[#E6F6FC]/80 resize-none min-h-[40px]"
                   ></textarea>
+                  {errors.message && (
+                    <p className="text-red-500 text-xs mt-1 bg-white/10 p-1 rounded">
+                      Message is required (min. 5 characters).
+                    </p>
+                  )}
                 </div>
               </div>
 
               {/* Submit Button */}
               <div className="flex justify-center lg:justify-end pt-4 sm:pt-6">
                 <CustomButton
-                  onClick={() => {}}
-                  className="w-full sm:w-auto min-w-[200px] px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105"
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full sm:w-auto min-w-[200px] px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium transition-all duration-300 hover:scale-103 cursor-pointer disabled:opacity-50"
                 >
-                  Submit <span className="ml-2">&rarr;</span>
+                  {isSubmitting ? "Submitting..." : "Submit"}{" "}
+                  <span className="ml-2">&rarr;</span>
                 </CustomButton>
               </div>
             </form>
@@ -118,7 +186,7 @@ const ContactSection = () => {
               <div className="flex justify-start space-x-4">
                 <FaFacebookF className="w-5 h-5" />
                 <FaInstagram className="w-5 h-5" />
-                <FaTwitter className="w-5 h-5" />
+                <FaXTwitter className="w-5 h-5" />
               </div>
             </div>
           </div>

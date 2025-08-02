@@ -1,3 +1,0 @@
-import { IoCallOutline } from "react-icons/io5";
-import { CiLocationOn } from "react-icons/ci";
-import { CiMail } from "react-icons/ci";

@@ -19,21 +19,21 @@ const TopHeader = () => {
             className="flex items-center text-xs font-normal leading-[1.5] whitespace-nowrap"
             style={{ fontFamily: "Raleway" }}
           >
-            <FaMapMarkerAlt size={16} className="flex-shrink-0 text-gray-400" />
+            <FaMapMarkerAlt size={16} className="flex-shrink-0 text-white" />
             <span className="ml-2">Your Address Here</span>
           </div>
           <div
             className="flex items-center text-xs font-normal leading-[1.5] whitespace-nowrap"
             style={{ fontFamily: "Raleway" }}
           >
-            <FaPhoneAlt size={16} className="flex-shrink-0 text-gray-400" />
+            <FaPhoneAlt size={16} className="flex-shrink-0 text-white" />
             <span className="ml-2 font-mono tracking-wide">+1234567890</span>
           </div>
           <div
             className="flex items-center text-xs font-normal leading-[1.5] whitespace-nowrap"
             style={{ fontFamily: "Raleway" }}
           >
-            <FaEnvelope size={16} className="flex-shrink-0 text-gray-400" />
+            <FaEnvelope size={16} className="flex-shrink-0 text-white" />
             <span className="ml-2">example@example.com</span>
           </div>
         </div>
