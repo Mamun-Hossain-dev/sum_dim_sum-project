@@ -1,2 +1,139 @@
-image:1  Failed to load resource: the server responded with a status of 400 ()Understand this error
-/menu?_rsc=3lb4g:1  Failed to load resource: the server responded with a status of 404 ()
+ https://sum-dim-sum-project.vercel.app/_next/image?url=%2Fimages%2FName.png&w=640&q=75 400 (Bad Request)Understand this error
+964-02efbd2195ef91bd.js:1  GET https://sum-dim-sum-project.vercel.app/menu?_rsc=3lb4g 404 (Not Found)
+y @ 964-02efbd2195ef91bd.js:1
+_ @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+l @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+enqueue @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+i @ 964-02efbd2195ef91bd.js:1
+o @ 964-02efbd2195ef91bd.js:1
+prefetch @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+E @ 964-02efbd2195ef91bd.js:1
+m @ 964-02efbd2195ef91bd.js:1
+IntersectionObserver.rootMargin @ 964-02efbd2195ef91bd.js:1Understand this error
+964-02efbd2195ef91bd.js:1  GET https://sum-dim-sum-project.vercel.app/reservation?_rsc=3lb4g 404 (Not Found)
+y @ 964-02efbd2195ef91bd.js:1
+_ @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+l @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+enqueue @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+i @ 964-02efbd2195ef91bd.js:1
+o @ 964-02efbd2195ef91bd.js:1
+prefetch @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+E @ 964-02efbd2195ef91bd.js:1
+m @ 964-02efbd2195ef91bd.js:1
+IntersectionObserver.rootMargin @ 964-02efbd2195ef91bd.js:1Understand this error
+964-02efbd2195ef91bd.js:1  GET https://sum-dim-sum-project.vercel.app/about?_rsc=3lb4g 404 (Not Found)
+y @ 964-02efbd2195ef91bd.js:1
+_ @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+l @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+enqueue @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+i @ 964-02efbd2195ef91bd.js:1
+o @ 964-02efbd2195ef91bd.js:1
+prefetch @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+E @ 964-02efbd2195ef91bd.js:1
+m @ 964-02efbd2195ef91bd.js:1
+IntersectionObserver.rootMargin @ 964-02efbd2195ef91bd.js:1Understand this error
+964-02efbd2195ef91bd.js:1  GET https://sum-dim-sum-project.vercel.app/career?_rsc=3lb4g 404 (Not Found)
+y @ 964-02efbd2195ef91bd.js:1
+_ @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+l @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+enqueue @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+i @ 964-02efbd2195ef91bd.js:1
+o @ 964-02efbd2195ef91bd.js:1
+prefetch @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+E @ 964-02efbd2195ef91bd.js:1
+m @ 964-02efbd2195ef91bd.js:1
+IntersectionObserver.rootMargin @ 964-02efbd2195ef91bd.js:1Understand this error
+964-02efbd2195ef91bd.js:1  GET https://sum-dim-sum-project.vercel.app/merchandise?_rsc=3lb4g 404 (Not Found)
+y @ 964-02efbd2195ef91bd.js:1
+_ @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+l @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+enqueue @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+i @ 964-02efbd2195ef91bd.js:1
+o @ 964-02efbd2195ef91bd.js:1
+prefetch @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+E @ 964-02efbd2195ef91bd.js:1
+m @ 964-02efbd2195ef91bd.js:1
+IntersectionObserver.rootMargin @ 964-02efbd2195ef91bd.js:1Understand this error
+964-02efbd2195ef91bd.js:1  GET https://sum-dim-sum-project.vercel.app/contact?_rsc=3lb4g 404 (Not Found)
+y @ 964-02efbd2195ef91bd.js:1
+_ @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+l @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+enqueue @ 964-02efbd2195ef91bd.js:1
+s @ 964-02efbd2195ef91bd.js:1
+i @ 964-02efbd2195ef91bd.js:1
+o @ 964-02efbd2195ef91bd.js:1
+prefetch @ 964-02efbd2195ef91bd.js:1
+(anonymous) @ 964-02efbd2195ef91bd.js:1
+E @ 964-02efbd2195ef91bd.js:1
+m @ 964-02efbd2195ef91bd.js:1
+IntersectionObserver.rootMargin @ 964-02efbd2195ef91bd.js:1Understand this error
+image:1  GET https://sum-dim-sum-project.vercel.app/_next/image?url=%2Fimages%2FName.png&w=750&q=75 400 (Bad Request)Understand this error
+580-a3facaca6b6d8a8c.js:1  POST https://landingpage-backend-fovb.onrender.com/api/v1/contact 500 (Internal Server Error)
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+xhr @ 580-a3facaca6b6d8a8c.js:1
+e4 @ 580-a3facaca6b6d8a8c.js:1
+_request @ 580-a3facaca6b6d8a8c.js:1
+request @ 580-a3facaca6b6d8a8c.js:1
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+h @ page-e5439309945991b4.js:1
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+await in (anonymous)
+i4 @ 4bd1b696-cf72ae8a39fa05aa.js:1
+(anonymous) @ 4bd1b696-cf72ae8a39fa05aa.js:1
+nz @ 4bd1b696-cf72ae8a39fa05aa.js:1
+se @ 4bd1b696-cf72ae8a39fa05aa.js:1
+cs @ 4bd1b696-cf72ae8a39fa05aa.js:1
+cu @ 4bd1b696-cf72ae8a39fa05aa.js:1Understand this error
+page-e5439309945991b4.js:1 Error sending message: K {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, request: XMLHttpRequest, …}
+overrideMethod @ hook.js:608
+h @ page-e5439309945991b4.js:1
+await in h
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+await in (anonymous)
+i4 @ 4bd1b696-cf72ae8a39fa05aa.js:1
+(anonymous) @ 4bd1b696-cf72ae8a39fa05aa.js:1
+nz @ 4bd1b696-cf72ae8a39fa05aa.js:1
+se @ 4bd1b696-cf72ae8a39fa05aa.js:1
+cs @ 4bd1b696-cf72ae8a39fa05aa.js:1
+cu @ 4bd1b696-cf72ae8a39fa05aa.js:1Understand this error
+580-a3facaca6b6d8a8c.js:1  POST https://landingpage-backend-fovb.onrender.com/api/v1/contact 500 (Internal Server Error)
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+xhr @ 580-a3facaca6b6d8a8c.js:1
+e4 @ 580-a3facaca6b6d8a8c.js:1
+_request @ 580-a3facaca6b6d8a8c.js:1
+request @ 580-a3facaca6b6d8a8c.js:1
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+h @ page-e5439309945991b4.js:1
+(anonymous) @ 580-a3facaca6b6d8a8c.js:1
+await in (anonymous)
+i4 @ 4bd1b696-cf72ae8a39fa05aa.js:1
+(anonymous) @ 4bd1b696-cf72ae8a39fa05aa.js:1
+nz @ 4bd1b696-cf72ae8a39fa05aa.js:1
+se @ 4bd1b696-cf72ae8a39fa05aa.js:1
+cs @ 4bd1b696-cf72ae8a39fa05aa.js:1
+cu @ 4bd1b696-cf72ae8a39fa05aa.js:1Understand this error
+page-e5439309945991b4.js:1 Error sending message: K {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, request: XMLHttpRequest, …}

@@ -26,7 +26,12 @@ const ContactSection = () => {
     try {
       await axios.post(
         "https://landingpage-backend-fovb.onrender.com/api/v1/contact",
-        data
+        data,
+        {
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        }
       );
       toast.success("Your message has been sent successfully!");
       reset();

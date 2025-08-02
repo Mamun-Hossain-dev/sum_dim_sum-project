@@ -130,30 +130,38 @@ const Footer = () => {
 
           {/* Links Section */}
           <div className="flex flex-col items-center lg:items-end space-y-3">
-            <p
-              className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
-              style={{ fontFamily: "Raleway, sans-serif" }}
-            >
-              Home
-            </p>
-            <p
-              className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
-              style={{ fontFamily: "Raleway, sans-serif" }}
-            >
-              About Us
-            </p>
-            <p
-              className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
-              style={{ fontFamily: "Raleway, sans-serif" }}
-            >
-              Privacy Policy
-            </p>
-            <p
-              className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
-              style={{ fontFamily: "Raleway, sans-serif" }}
-            >
-              Terms & Conditions
-            </p>
+            <Link href="/">
+              <p
+                className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
+                style={{ fontFamily: "Raleway, sans-serif" }}
+              >
+                Home
+              </p>
+            </Link>
+            <Link href="/">
+              <p
+                className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
+                style={{ fontFamily: "Raleway, sans-serif" }}
+              >
+                About Us
+              </p>
+            </Link>
+            <Link href="/">
+              <p
+                className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
+                style={{ fontFamily: "Raleway, sans-serif" }}
+              >
+                Privacy Policy
+              </p>
+            </Link>
+            <Link href="/">
+              <p
+                className="font-normal text-lg leading-[150%] text-center lg:text-right cursor-pointer hover:opacity-70 transition-opacity"
+                style={{ fontFamily: "Raleway, sans-serif" }}
+              >
+                Terms & Conditions
+              </p>
+            </Link>
           </div>
         </div>
       </div>
