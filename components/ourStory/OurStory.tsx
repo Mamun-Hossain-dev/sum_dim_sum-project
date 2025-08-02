@@ -106,7 +106,7 @@ const OurStorySection = () => {
                 className="absolute top-[261px] left-[60px] w-auto h-auto bg-[#B31217] text-white rounded-[8px] flex items-center justify-center gap-[8px] px-[20px] py-[10px] hover:scale-105 hover:shadow-lg transition-all duration-300 mt-[20px]"
                 style={{ fontFamily: "Raleway, sans-serif" }}
               >
-                <span className="text-[16px] font-semibold flex items-center gap-1">
+                <span className="text-[16px] font-normal flex items-center gap-1">
                   Learn More <span>&rarr;</span>
                 </span>
               </button>
@@ -189,7 +189,7 @@ const OurStorySection = () => {
                 className="w-[159px] h-[48px] bg-[#B31217] text-white rounded-[8px] flex items-center justify-center gap-[8px] px-[20px] py-[10px] hover:scale-105 hover:shadow-lg transition-all duration-300"
                 style={{ fontFamily: "Raleway, sans-serif" }}
               >
-                <span className="text-[16px] font-semibold flex items-center gap-1">
+                <span className="text-[16px] font-normal flex items-center gap-1">
                   Learn More <span>&rarr;</span>
                 </span>
               </button>

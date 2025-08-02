@@ -59,7 +59,7 @@ const TalkOfTheTown = () => {
           {/* Name Image - Mobile */}
           <div className="absolute bottom-[20px] right-[20px] lg:hidden z-10">
             <Image
-              src="/images/name.png"
+              src="/images/Name.png"
               alt="name"
               width={200}
               height={60}
@@ -71,7 +71,7 @@ const TalkOfTheTown = () => {
             className="hidden lg:block absolute z-10"
             style={{ top: "351px", left: "1014px" }}
           >
-            <Image src="/images/name.png" alt="name" width={366} height={109} />
+            <Image src="/images/Name.png" alt="name" width={366} height={109} />
           </div>
 
           {/* Centered Content (Profile, Text, Stars, and Frame) */}
@@ -107,7 +107,7 @@ const TalkOfTheTown = () => {
               {[...Array(5)].map((_, i) => (
                 <Image
                   key={i}
-                  src="/icons/Vector.png"
+                  src="/icons/vector.png"
                   alt="star"
                   width={35}
                   height={34}
