@@ -1,4 +1,12 @@
-width: 1440;
-height: 940;
-angle: 0 deg;
-opacity: 1;
+Parsing ecmascript source code failed
+
+./components/ContactSection.tsx (134:6)
+
+Parsing ecmascript source code failed
+  132 |         </div>
+  133 |       </div>
+> 134 |     </section>
+      |      ^^^^^^^^^
+  135 |   );
+  136 | };
+  137 |

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import CustomButton from "./common/CustomButton";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
@@ -66,7 +67,7 @@ const ContactSection = () => {
               </div>
 
               {/* Submit Button */}
-              <div className="flex justify-center lg:justify-start pt-4 sm:pt-6">
+              <div className="flex justify-center lg:justify-end pt-4 sm:pt-6">
                 <CustomButton
                   onClick={() => {}}
                   className="w-full sm:w-auto min-w-[200px] px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105"
@@ -79,35 +80,57 @@ const ContactSection = () => {
         </div>
 
         {/* Right Column */}
-        <div className="w-full lg:w-[494px] bg-gradient-to-br from-[#F7E7E8] to-[#F0D6D8] p-4 sm:p-6 md:p-8 lg:p-10 flex items-center justify-center order-2 lg:order-2 min-h-[300px] sm:min-h-[400px] lg:min-h-full">
-          <div className="text-center max-w-[400px] mx-auto">
-            {/* You can replace this placeholder with actual content */}
-            <div className="space-y-4 sm:space-y-6">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white/50 rounded-full flex items-center justify-center mx-auto">
-                <svg
-                  className="w-8 h-8 sm:w-10 sm:h-10 text-gray-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-raleway font-semibold text-lg sm:text-xl text-gray-800 mb-2">
-                  Get in Touch
-                </h3>
-                <p className="font-raleway text-sm sm:text-base text-gray-600 leading-relaxed">
-                  We&apos;d love to hear from you. Send us a message and
-                  we&apos;ll respond as soon as possible.
-                </p>
+        <div className="relative w-full lg:w-[494px] bg-gradient-to-br from-[#F7E7E8] to-[#F0D6D8] p-4 sm:p-6 md:p-8 lg:p-10 flex items-center justify-center order-2 lg:order-2 min-h-[300px] sm:min-h-[400px] lg:min-h-full">
+          {/* Tree background image - moved down */}
+          <Image
+            src="/icons/Group.png"
+            alt="Cherry Blossom Tree Background"
+            layout="fill"
+            objectFit="contain"
+            className="absolute inset-0 z-0 opacity-50 translate-y-8"
+          />
+
+          <div className="relative z-10 flex flex-col justify-start h-full w-full text-[#0C0C0C] pt-[180px] pb-[229px] px-[60px]">
+            <div className="text-left">
+              <h3
+                className="font-semibold text-2xl mb-4"
+                style={{ fontFamily: "Poppins, sans-serif" }}
+              >
+                Contact Information
+              </h3>
+              <div
+                className="space-y-2 text-base"
+                style={{ fontFamily: "Open Sans, sans-serif" }}
+              >
+                <p>Maui, Hawaii, USA</p>
+                <p>Call us: +1234567890</p>
+                <p>Whatsapp: +1234567890</p>
               </div>
             </div>
+
+            <div className="text-left mt-[60px]">
+              <h3
+                className="font-semibold text-2xl mb-4"
+                style={{ fontFamily: "Poppins, sans-serif" }}
+              >
+                Follow Us
+              </h3>
+              <div className="flex justify-start space-x-4">
+                <FaFacebookF className="w-5 h-5" />
+                <FaInstagram className="w-5 h-5" />
+                <FaTwitter className="w-5 h-5" />
+              </div>
+            </div>
+          </div>
+
+          {/* Contact us image - moved up */}
+          <div className="absolute bottom-[40px] right-[60px]">
+            <Image
+              src="/icons/contact_us.png"
+              alt="Contact Us"
+              width={193}
+              height={51}
+            />
           </div>
         </div>
       </div>

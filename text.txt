@@ -1,89 +1,12 @@
-make a contact section
-for large devices (max width and height) - width: 1320;
-height: 746;
-angle: 0 deg;
-opacity: 1;
+the contact information 
+from left 60px
+top and bottom - 229px
 
-it has 2 column left and right
+as with the follow us section
 
-i) left - width: 826;
-height: 746;
-angle: 0 deg;
-opacity: 1;
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-color: #00000066;
-backdrop-filter: blur(16px)
+the space between these two is 60px
 
-it have a bg image(/images/contact_left.png).
-inside it contents-(px - 60px)
+the contact us image from bottom 18px and right 60px
 
-title -
-width: 377;
-height: 68;
-top: 120px;
-left: 60px;
-gap: 8px;
-angle: 0 deg;
-opacity: 1;
-
-Just Say Hi !
-font-family: Raleway;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 24px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 0%;
-color: #F8F8FF;
-
-Tell us more about you and we’ll contact you soon.
-font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 0%;
-color: #F8F8FF;
-
-the form - 
-width: 706;
-height: 268;
-top: 248px;
-left: 60px;
-gap: 120px;
-angle: 0 deg;
-opacity: 1;
-
-inputs - 
-first full width name, 
-then email and phone number (between space 24px)
-then full width type your message here input
-
-input styles - transparent bottom border 
-
-angle: 180 deg;
-opacity: 1;
-border-width: 0.5px;
-
-for color and styles 
-font-family: Raleway;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 150%;
-letter-spacing: 0%;
-color: #E6F6FC;
-
-then in the right most content side a button , Submit -> (use the custom button component) (above space from form is 60px).
-
-right side - width: 494;
-height: 746;
-left: 826px;
-angle: 0 deg;
-opacity: 1;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-background: #F7E7E8;
+please follow this do not make any mistake 
+and for the social icons use react icons
