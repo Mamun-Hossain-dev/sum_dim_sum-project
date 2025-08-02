@@ -42,7 +42,7 @@ const foodItems = [
 
 const Tradition = () => {
   return (
-    <section className="w-full max-w-[1320px] mx-auto mt-[120px] mb-[50px] px-4 lg:px-0">
+    <section className="w-full max-w-[1320px] mx-auto py-[80px] lg:py-[120px] px-4 lg:px-0">
       <div className="text-center">
         <h1
           className="text-[48px] font-bold leading-[136%] text-[#0C0C0C]"
@@ -77,7 +77,7 @@ const Tradition = () => {
                   height={410}
                   className="object-cover w-full h-full"
                 />
-                <div className="hidden lg:block absolute bottom-0 left-0 w-full h-[151px] p-5 bg-black/40 backdrop-blur-lg rounded-b-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <div className="hidden md:block absolute bottom-0 left-0 w-full h-[151px] p-5 bg-black/40 backdrop-blur-lg rounded-b-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <div className="flex justify-between items-center h-full">
                     <div className="text-[#F8F8FF] max-w-[calc(100%-186px)]">
                       <h3

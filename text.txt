@@ -1,22 +1,89 @@
-width: 338;
-height: 24;
-justify-content: space-between;
+make a contact section
+for large devices (max width and height) - width: 1320;
+height: 746;
 angle: 0 deg;
 opacity: 1;
-each of the input field would like this
-with just border bottom - 0.5px width: 338.00000000000125;
-height: 0px;
-angle: 180 deg;
+
+it has 2 column left and right
+
+i) left - width: 826;
+height: 746;
+angle: 0 deg;
 opacity: 1;
-border-width: 0.5px;
-,
-placeholder is, Your Name, 1(dynamic can change) Person, a default date(21-7-2025) instead of calender icon it showing arrow down icons(import this from react-icons this is same for person, and time) and lat 9:00 PM 
-text styles
-font-family: Poppins;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+color: #00000066;
+backdrop-filter: blur(16px)
+
+it have a bg image(/images/contact_left.png).
+inside it contents-(px - 60px)
+
+title -
+width: 377;
+height: 68;
+top: 120px;
+left: 60px;
+gap: 8px;
+angle: 0 deg;
+opacity: 1;
+
+Just Say Hi !
+font-family: Raleway;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #F8F8FF;
+
+Tell us more about you and we’ll contact you soon.
+font-family: Raleway;
 font-weight: 400;
 font-style: Regular;
 font-size: 16px;
 leading-trim: NONE;
 line-height: 150%;
 letter-spacing: 0%;
-color: #0C0C0C;
+color: #F8F8FF;
+
+the form - 
+width: 706;
+height: 268;
+top: 248px;
+left: 60px;
+gap: 120px;
+angle: 0 deg;
+opacity: 1;
+
+inputs - 
+first full width name, 
+then email and phone number (between space 24px)
+then full width type your message here input
+
+input styles - transparent bottom border 
+
+angle: 180 deg;
+opacity: 1;
+border-width: 0.5px;
+
+for color and styles 
+font-family: Raleway;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #E6F6FC;
+
+then in the right most content side a button , Submit -> (use the custom button component) (above space from form is 60px).
+
+right side - width: 494;
+height: 746;
+left: 826px;
+angle: 0 deg;
+opacity: 1;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+background: #F7E7E8;

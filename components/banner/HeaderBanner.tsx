@@ -5,7 +5,6 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-import CustomButton from "../common/CustomButton";
 import CheckOurProfile from "@/components/CheckProfile";
 
 const HeaderBanner = () => {
@@ -31,10 +30,10 @@ const HeaderBanner = () => {
   };
 
   return (
-    <header className="relative">
+    <header className="relative min-h-[700px] lg:min-h-[940px] flex flex-col justify-center items-center">
       {/* Background Banner Image */}
       <div
-        className="absolute inset-0 w-full h-[700px] sm:h-[750px] md:h-[800px] lg:h-[860px] bg-cover bg-center"
+        className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/images/hero_banner.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -158,8 +157,8 @@ const HeaderBanner = () => {
       </nav>
 
       {/* Banner Content */}
-      <div className="absolute z-10 w-full text-center px-4 sm:px-6 top-32 sm:top-40 md:top-52 lg:top-[265px]">
-        <div className="max-w-[1320px] mx-auto h-auto lg:h-[374px] flex flex-col items-center justify-center">
+      <div className="relative z-10 w-full text-center px-4 sm:px-6">
+        <div className="max-w-[1320px] mx-auto h-auto flex flex-col items-center justify-center">
           <h1
             className="font-bold text-white text-center w-full opacity-100 flex items-center justify-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[64px] leading-tight sm:leading-[120%] md:leading-[130%] lg:leading-[136%] mb-4 sm:mb-6 lg:mb-0 lg:h-[174px]"
             style={{

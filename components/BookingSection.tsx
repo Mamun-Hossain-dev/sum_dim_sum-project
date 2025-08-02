@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const BookingSection = () => {
   return (
-    <section className="w-full max-w-[1320px] mx-auto lg:mt-[120px] mt-[90px] mb-[50px] px-4 lg:px-0 lg:h-[548px] flex items-center justify-between">
+    <section className="w-full max-w-[1320px] mx-auto py-[80px] lg:py-[120px] px-4 lg:px-0 lg:h-[548px] flex items-center justify-between">
       <div className="relative w-full lg:max-w-[1096px] rounded-[20px] z-10 mx-auto opacity-100 lg:px-6">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between h-full lg:gap-[62px]">
           {/* Left Side - Image */}

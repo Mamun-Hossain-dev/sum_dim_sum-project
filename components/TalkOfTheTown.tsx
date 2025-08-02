@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const TalkOfTheTown = () => {
   return (
-    <section className="w-full mt-[60px] sm:mt-[80px] lg:mt-[120px] mb-[30px] sm:mb-[40px] lg:mb-[50px]">
+    <section className="w-full py-[80px] lg:py-[120px]">
       <div className="max-w-[1440px] mx-auto px-4 lg:px-0">
         {/* Heading */}
         <div className="text-center">

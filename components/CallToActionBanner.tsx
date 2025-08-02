@@ -3,7 +3,7 @@ import Link from "next/link";
 const CallToActionBanner = () => {
   return (
     <section
-      className="relative mt-[120px] mb-[50px] w-full bg-cover bg-center py-20 md:py-32 lg:py-40"
+      className="relative py-[80px] lg:py-[120px] w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/images/bg_image.png')" }}
     >
       {/* <div className="absolute inset-0 bg-black opacity-30"></div> */}

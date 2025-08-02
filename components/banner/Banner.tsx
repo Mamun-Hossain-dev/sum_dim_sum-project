@@ -3,7 +3,7 @@ import TopHeader from "./TopHeader";
 
 const Banner = () => {
   return (
-    <div className="relative h-auto min-h-[860px] lg:h-screen">
+    <div className="relative h-auto pb-[80px] lg:pb-[120px]">
       <TopHeader />
       <HeaderBanner />
     </div>

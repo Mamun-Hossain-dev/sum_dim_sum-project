@@ -1,0 +1,16 @@
+the left column- 
+width: 558;
+height: 538;
+angle: 0 deg;
+opacity: 1;
+border-radius: 20px;
+border-width: 1px;
+
+the right column - 
+width: 700;
+height: 548;
+gap: 60px;
+angle: 0 deg;
+opacity: 1;
+
+and gap - 62px
