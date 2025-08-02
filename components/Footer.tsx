@@ -1,13 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaEnvelope,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+
+import { IoCallOutline } from "react-icons/io5";
+import { CiLocationOn } from "react-icons/ci";
+import { CiMail } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -31,7 +28,7 @@ const Footer = () => {
             <div className="space-y-4">
               {/* Phone */}
               <div className="flex items-center justify-center lg:justify-start">
-                <FaPhoneAlt
+                <IoCallOutline
                   className="w-[19.5px] h-[19.5px] mr-3"
                   style={{ color: "#000000" }}
                 />
@@ -45,7 +42,7 @@ const Footer = () => {
 
               {/* Address */}
               <div className="flex items-center justify-center lg:justify-start">
-                <FaMapMarkerAlt
+                <CiLocationOn
                   className="w-[19.5px] h-[19.5px] mr-3"
                   style={{ color: "#000000" }}
                 />
@@ -59,7 +56,7 @@ const Footer = () => {
 
               {/* Email */}
               <div className="flex items-center justify-center lg:justify-start">
-                <FaEnvelope
+                <CiMail
                   className="w-[19.5px] h-[19.5px] mr-3"
                   style={{ color: "#000000" }}
                 />
